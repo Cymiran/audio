@@ -1,0 +1,27 @@
+@mixin block-center{
+    margin: 0 auto;
+    display: block;
+}
+
+@mixin text-center($lineght: 0, $color: null){
+    @if $lineght != 0 {
+        line-height: $lineght;
+    }
+    @if $color != null {
+        color: $color;
+    }
+    text-align: center;
+}
+
+@mixin css3($prop, $val) {
+    #{$prop} : $val;
+    -webkit-#{$prop} : $val;
+    -moz-#{$prop} : $val;
+    -ms-#{$prop} : $val;
+    -o-#{$prop} : $val;
+}
+
+@mixin opacity($val: 1) {
+    opacity : $val;
+    filter: alpha(opacity=$val*100);
+}

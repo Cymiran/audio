@@ -1,0 +1,399 @@
+@import url("../css/commen.css");
+body .container header, html .container header, body .container section .head, html .container section .head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+@font-face {
+  font-family: 'iconfont';
+  src: url("../iconfont/iconfont.eot");
+  src: url("../iconfont/iconfont.eot?#iefix") format("embedded-opentype"), url("../iconfont/iconfont.woff") format("woff"), url("../iconfont/iconfont.ttf") format("truetype"), url("../iconfont/iconfont.svg#iconfont") format("svg");
+}
+.turnaround {
+  -webkit-animation: circle 20s infinite linear;
+  animation: circle 20s infinite linear;
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+  font-size: 0.8rem;
+  background: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0.1, #20ec9d), color-stop(0.5, #5ed9f5), color-stop(1, #e603d3)) no-repeat center center;
+}
+body .container, html .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+body .container header, html .container header {
+  height: 3rem;
+  background: rgba(0, 0, 0, 0.1);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 1rem;
+}
+body .container header i#select, html .container header i#select {
+  font-size: 1.2rem;
+}
+body .container section, html .container section {
+  width: 100%;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  overflow-y: scroll;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  position: relative;
+}
+body .container section ul#menu, html .container section ul#menu {
+  position: absolute;
+  width: 15rem;
+  background: rgba(53, 202, 186, 0.91);
+  -webkit-box-shadow: 0 0 5px 3px rgba(123, 123, 123, 0.35);
+  box-shadow: 0 0 5px 3px rgba(123, 123, 123, 0.35);
+  right: 0;
+  overflow: hidden;
+  height: 13rem;
+  z-index: 9999;
+  overflow-y: scroll;
+  display: none;
+}
+body .container section ul#menu li, html .container section ul#menu li {
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  padding: 0.3rem 0.5rem;
+}
+body .container section ul#menu li span, html .container section ul#menu li span {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+body .container section ul#menu li span.music, html .container section ul#menu li span.music {
+  width: 70%;
+}
+body .container section ul#menu li span.geshou, html .container section ul#menu li span.geshou {
+  width: 30%;
+}
+body .container section ul#menu li.active, html .container section ul#menu li.active {
+  background: #02887a;
+}
+body .container section .head, html .container section .head {
+  width: 100%;
+  height: 4rem;
+  font-size: 1.3rem;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+body .container section .main-one, html .container section .main-one {
+  width: 100%;
+  height: 15rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+body .container section .main-one .yinliang, html .container section .main-one .yinliang {
+  position: absolute;
+  z-index: 10000;
+  top: -1rem;
+  left: 20%;
+  width: 60%;
+  height: 2rem;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+body .container section .main-one .yinliang i, html .container section .main-one .yinliang i {
+  font-size: 1.3rem;
+}
+body .container section .main-one .yinliang .loud-pro, html .container section .main-one .yinliang .loud-pro {
+  display: inline-block;
+  width: 12rem;
+  height: 1px;
+  background: #fff;
+  position: relative;
+}
+body .container section .main-one .yinliang .loud-pro .loud-hand, html .container section .main-one .yinliang .loud-pro .loud-hand {
+  display: inline-block;
+  width: 0.8rem;
+  height: 0.8rem;
+  background: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: -0.3rem;
+  left: 10%;
+}
+body .container section .main-one #bofang, html .container section .main-one #bofang {
+  position: absolute;
+  z-index: 1000;
+  color: rgba(255, 251, 251, 0.83);
+  font-size: 3rem;
+}
+body .container section .main-one #bofang.block, html .container section .main-one #bofang.block {
+  display: block;
+}
+body .container section .main-one #bofang.none, html .container section .main-one #bofang.none {
+  display: none;
+}
+body .container section .main-one canvas#canvas, html .container section .main-one canvas#canvas {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-box-flex: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+}
+body .container section .main-one .progress, html .container section .main-one .progress {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  z-index: 2;
+}
+body .container section .main-one .progress .headimg, html .container section .main-one .progress .headimg {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+body .container section .main-one .progress .headimg img, html .container section .main-one .progress .headimg img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+body .container section .main-one .progress #hand, html .container section .main-one .progress #hand {
+  position: absolute;
+  top: -0.5rem;
+  left: 50%;
+  z-index: 50;
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background: #fff;
+}
+body .container section .main-one .progress .prog, html .container section .main-one .progress .prog {
+  position: absolute;
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 50%;
+  z-index: 1;
+}
+body .container section .time, html .container section .time {
+  color: #fff;
+  font-size: 1rem;
+  text-align: center;
+  display: block;
+}
+body .container section .main-two, html .container section .main-two {
+  width: 100%;
+  height: 7rem;
+  color: #fff;
+  font-size: 0.8rem;
+  overflow-y: scroll;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-box-flex: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+}
+body .container section .main-two .lyc-box, html .container section .main-two .lyc-box {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+body .container section .main-two .lyc-box p, html .container section .main-two .lyc-box p {
+  text-align: center;
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+  padding: 0;
+  margin: 0;
+}
+body .container ul#option, html .container ul#option {
+  width: 50%;
+  height: 4rem;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+body .container ul#option li, html .container ul#option li {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  border: 1px solid transparent;
+  position: relative;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+body .container ul#option li i, html .container ul#option li i {
+  display: block;
+  text-align: center;
+  font-size: 1.2rem;
+  width: 100%;
+}
+body .container ul#option li i.yinliang, html .container ul#option li i.yinliang {
+  position: absolute;
+  top: -3.2rem;
+  font-size: 3rem;
+  left: -0.4rem;
+}
+body .container ul#option li i.like, html .container ul#option li i.like {
+  color: red;
+}
+body .container ul#option li::after, html .container ul#option li::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+}
+body .container footer, html .container footer {
+  width: 100%;
+  height: 4rem;
+  -webkit-box-flex: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  background: rgba(0, 0, 0, 0.1);
+}
+body .container footer ul#foot, html .container footer ul#foot {
+  width: 40%;
+  height: 4rem;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+body .container footer ul#foot li, html .container footer ul#foot li {
+  color: #fff;
+  font-size: 1rem;
+  padding: 1rem;
+}
+body .container footer ul#foot li i, html .container footer ul#foot li i {
+  font-size: 1.5rem;
+}
+body .container footer ul#foot li i.play, html .container footer ul#foot li i.play {
+  display: none;
+}
+
+@-webkit-keyframes circle {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes circle {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}

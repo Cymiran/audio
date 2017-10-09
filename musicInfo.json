@@ -1,0 +1,67 @@
+{
+    "data" : [
+        {
+            "src" : "../music/张艺兴-羊 (SHEEP).mp3",
+            "song" : "羊 (SHEEP)",
+            "singer" : "张艺兴",
+            "lyric" : "./music/羊.lrc",
+            "headimg" : "./images/张艺兴.jpg"
+        },
+        {
+            "src" : "../music/Git Fresh-Booty Music.mp3",
+            "song" : "Booty Music",
+            "singer" : "Git Fresh",
+            "lyric" : "./music/Booty Music.lrc",
+            "headimg" : "./images/booty.jpg"
+        },
+        {
+            "src" : "../music/蝶々P-831143.mp3",
+            "song" : "831143",
+            "singer" : "Nero",
+            "lyric" : "./music/831143.lrc",
+            "headimg" : "./images/Nero.jpg"
+        },
+        {
+            "src" : "../music/华晨宇-智商二五零.mp3",
+            "song" : "智商二五零",
+            "singer" : "华晨宇",
+            "lyric" : "./music/智商二五零.lrc",
+            "headimg" : "./images/智商二五零.jpg"
+        },
+        {
+            "src" : "../music/OMFG-Hello.mp3",
+            "song" : "Hello",
+            "singer" : "OMFG",
+            "lyric" : "./music/OMFG-Hello.lrc",
+            "headimg" : "./images/OMFG.jpg"
+        },
+        {
+            "src" : "../music/Czarina-I Miss You.mp3",
+            "song" : "I Miss You",
+            "singer" : "Czarina",
+            "lyric" : "./music/I Miss You.lrc",
+            "headimg" : "./images/Czarina.jpg"
+        },
+        {
+            "src" : "../music/minato (流星P)-朧月.mp3",
+            "song" : "朧月",
+            "singer" : "minato",
+            "lyric" : "./music/朧月.lrc",
+            "headimg" : "./images/minato.jpg"
+        },
+        {
+            "src" : "../music/다비치-이 사랑 (这份爱).mp3",
+            "song" : "사랑 (这份爱)",
+            "singer" : "다비치-이",
+            "lyric" : "./music/사랑 (这份爱).lrc",
+            "headimg" : "./images/다비치-이.jpg"
+        },
+        {
+            "src" : "../music/许嵩-庐州月.mp3",
+            "song" : "庐州月",
+            "singer" : "许嵩",
+            "lyric" : "./music/庐州月.lrc",
+            "headimg" : "./images/许嵩.jpg"
+        }
+    ]
+}
